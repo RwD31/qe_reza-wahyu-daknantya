@@ -3,7 +3,7 @@ public class BilanganPrima {
     /**
      * primenumber
      */
-    public static int primenumber(int number) {
+    public static boolean primenumber(int number) {
         int i;
         int check = 0;
         for (i = 2; i <= number; i++){
@@ -14,11 +14,12 @@ public class BilanganPrima {
         }
         
         if (check == 1){
-            System.out.println(number + " True\n");
+            System.out.print(number + " ");
+            return true;
         }else {
-            System.out.println(number + " False\n");
+           System.out.print(number + " ");
+           return false;
         } 
-        return  0;
     }
 
 

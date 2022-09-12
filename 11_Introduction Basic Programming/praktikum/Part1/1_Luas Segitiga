@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Lsegitiga {
+    public static void main(String[] args) {
+
+    float a, t, luas;
+
+    try (Scanner scan = new Scanner(System.in)) {
+        System.out.print("Float alas: ");
+        a = scan.nextFloat();
+        System.out.print("Float segitiga: ");
+        t = scan.nextFloat();
+    }
+    
+    luas = (float) (0.5 * a * t);
+    
+    System.out.println("Luas segitiga adalah "+luas);
+    }
+}

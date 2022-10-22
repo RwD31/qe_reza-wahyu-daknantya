@@ -24,3 +24,8 @@ Untuk membuat BDD dengan cucumber, langkah untuk membuatnya yaitu :
 4. Menjalankan story
    menggunakan IDE intelij dengan java maven.
 5. Menampilkan report
+
+## Serenity properti
+1. serenity support beberapa properti untuk membantu menjalankan pengujian.
+2. webdriver.driver yang mendefinisikan browser yang akan digunakan untuk melakukan pengujian.
+3. Ignore.failures.in.stories untuk membuat serenity tetap berjalan meskipun ada tahapan yang gagal diproses/. 
